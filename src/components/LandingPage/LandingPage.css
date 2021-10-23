@@ -1,0 +1,7 @@
+#LandingPage{
+    margin-top: 30px;
+}
+#LandingPage div {
+    display: flex;
+    justify-content: center;
+}
