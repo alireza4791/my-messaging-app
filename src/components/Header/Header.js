@@ -4,19 +4,13 @@ import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { connect } from 'react-redux';
 
-import './Header.css';
 import { fetchUser } from '../../actions';
-
-
+import './Header.css';
 
 
 class Header extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state =  {btnText: 'Login'};
-    }
+    state =  {btnText: 'Login'};
 
     //if we had back end
     // renderbtnText = () => {
@@ -51,8 +45,8 @@ class Header extends Component {
                 {this.state.btnText}
                 </Button>
                 </Link>
-                ]}
-                >
+                ]}>
+                    
                 </PageHeader>
                 
             </div>

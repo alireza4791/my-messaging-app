@@ -11,8 +11,15 @@ export default class App extends Component {
             <BrowserRouter>
                 <div className="container">
                     <Header />
-                    <Route exact path='/Home' component={HomePage} />
-                    <Route exact path='/' component={LandingPage} />
+                    <Route 
+                    exact 
+                    path='/Home' 
+                    component={HomePage} />
+
+                    <Route 
+                    exact 
+                    path='/' 
+                    component={LandingPage} />
                 </div>
             </BrowserRouter>
         )
